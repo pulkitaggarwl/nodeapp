@@ -28,7 +28,7 @@ steps:
     archiveType: zip
     archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
     replaceExistingArchive: true
-
+    
 - task: AzureWebApp@1
   displayName: 'Azure Web App Deploy'
   inputs:
