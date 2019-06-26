@@ -32,7 +32,7 @@ steps:
 - task: AzureWebApp@1
   displayName: 'Azure Web App Deploy'
   inputs:
-    azureSubscription: '12309ee5-a3a9-4c77-b6e2-ec8fc1373963'
+    azureSubscription: 'f841be4a-d541-4139-843d-164af696c00c'
     appType: webApp
     appName: 'cosmossampleplkt'
     package: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
