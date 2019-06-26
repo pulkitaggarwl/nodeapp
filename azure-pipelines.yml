@@ -32,7 +32,7 @@ steps:
 - task: AzureWebApp@1
   displayName: 'Azure Web App Deploy'
   inputs:
-    azureSubscription: '1f01b6d6-edab-4b31-b388-8753d958dfdc'
+    azureSubscription: '7d21d1f5-07da-453d-9b73-96a675899402'
     appType: webApp
     appName: 'himanshudemo'
     package: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
