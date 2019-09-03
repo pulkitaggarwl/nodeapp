@@ -3,7 +3,7 @@
 
 trigger:
 - master
-
+ 
 stages:
 - stage: Build
   displayName: Build stage
